@@ -27,6 +27,7 @@ Random Sample Consensus (RANSAC) was implemented to segment the road plane from 
 
 <img src="media/ransac-animation.gif" width="640" height="480" />
 <figcaption><b>Figure 1: RANSAC algorithm for line fitting with outliers (Source: Udacity)</b></figcaption>
+
 </br>
 
 RANSAC for a plane was implemented with the following functions in `processPointClouds.cpp`: 
