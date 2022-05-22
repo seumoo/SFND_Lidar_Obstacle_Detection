@@ -1,9 +1,13 @@
 # Sensor Fusion Self-Driving Car Course
 *Udacity Nanodegree - ongoing since January 2022*
 
-</br>
+## Table of Contents
+  - [Course Overview](#course-overview)
+    - [Sensors](#sensors)
+  - [Completed Projects](#completed-projects)
+    - [Project 1: Lidar Obstacle Detection](#project-1-lidar-obstacle-detection)
 
-# Course Overview
+## Course Overview
 
 In this course, I am learning about three sensor technologies integral for self-driving vehicles: LiDAR, camera, and radar. When outputs from each sensor are fused, vehicles can detect and track non-linear motion and objects in the environment. This fusion of multiple sensors is the basis for collision detection, cruise control, and other decision trees for self-driving vehicles.
 
@@ -11,7 +15,7 @@ The course contains four projects with each adding one additional sensor technol
 1. Lidar Obstacle Detection: using LiDAR and machine learning algorithms to detect objects in a point cloud stream
 <!-- 2. 2D Feature Tracking: using camera data with LiDAR to detect and calculate distances between an ego car and front car -->
 
-## Sensors
+### Sensors
 
 LiDAR, camera, and radar are fused together to overcome each of their weaknesses (Figure 1). 
 
@@ -19,6 +23,7 @@ LiDAR, camera, and radar are fused together to overcome each of their weaknesses
 
 <img src="media/sensor-chart.png" width="773" height="392" />
 <figcaption><b>Figure 1: Comparison of sensors</b></figcaption>
+
 </br>
 
 Below is a list of each sensor with their descriptions and weaknesses:
@@ -32,15 +37,16 @@ Below is a list of each sensor with their descriptions and weaknesses:
 <figcaption><b>Figure 2: Point cloud sample from Project 1</b></figcaption>
 </br>
 
-# Completed Projects
+## Completed Projects
 Below are descriptions of completed projects. Each project uses C++ and the OpenCV C++ library.
 
-## Project 1: Lidar Obstacle Detection
+### Project 1: Lidar Obstacle Detection
 The goal of this project was to detect objects from a point cloud stream of traffic on a street (Figure 3). For this detection pipeline, I implemented the following algorithms:
 1. RANSAC: used to separate the point cloud between road plane and obstacle plane 
 2. KD-Tree: a quick and efficient search algorithm that identifies regions within the point cloud that are point clusters
 3. Euclidean clustering: establishes individual indices on the KD-tree clusters and encompasses the clusters with a bounding box
 
+For more details, please check out the repo [here](Project_1_Lidar_Obstacle_Detection/README.md).
 </br>
 
 <img src="media/project-1-1.gif" width="700" height="400" />
