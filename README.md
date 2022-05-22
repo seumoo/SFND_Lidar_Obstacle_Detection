@@ -46,7 +46,7 @@ The goal of this project was to detect objects from a point cloud stream of traf
 2. KD-Tree: a quick and efficient search algorithm that identifies regions within the point cloud that are point clusters
 3. Euclidean clustering: establishes individual indices on the KD-tree clusters and encompasses the clusters with a bounding box
 
-For more details, please check out the repo [here](Project_1_Lidar_Obstacle_Detection/README.md).
+For more details, please check out the repo [here](Project_1_Lidar_Obstacle_Detection/).
 </br>
 
 <img src="media/project-1-1.gif" width="700" height="400" />
