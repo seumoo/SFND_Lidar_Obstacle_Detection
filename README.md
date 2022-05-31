@@ -35,6 +35,7 @@ Below is a list of each sensor with their descriptions and weaknesses:
 
 <img src="media/pointcloud-sample.png" width="953" height="478" />
 <figcaption><b>Figure 2: Point cloud sample from Project 1</b></figcaption>
+
 </br>
 
 ## Completed Projects
