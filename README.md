@@ -1,5 +1,8 @@
 # Sensor Fusion Self-Driving Car Course
+
 *Udacity Nanodegree - ongoing since January 2022*
+
+**Technologies Used**: C#, OpenCV
 
 ## Table of Contents
   - [Course Overview](#course-overview)
