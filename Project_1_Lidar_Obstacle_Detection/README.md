@@ -27,6 +27,7 @@ Random Sample Consensus (RANSAC) was implemented to segment the road plane from 
 
 <img src="media/ransac-animation.gif" width="640" height="480" />
 <figcaption><b>Figure 1: RANSAC algorithm for line fitting with outliers (Source: Udacity)</b></figcaption>
+</br>
 
 </br>
 
@@ -69,6 +70,8 @@ After the detection pipeline was finished, the pipeline was appied to a data str
 
 <img src="../media/project-1-1.gif" width="700" height="400" />
 <figcaption><b>Figure 4: Object detection from point cloud stream (3/4th view)</b></figcaption>
+
+</br>
 
 </br>
 
